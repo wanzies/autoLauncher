@@ -1,4 +1,4 @@
-const TelegramBot = require('node-telegram-bot-api');
+const TelegramBot = require('8629870606:AAGG1-xfp8_2c0ckla8hqPHQ9oQK3GHam6I');
 const fetch = require('node-fetch');
 
 console.log('ENV CHECK:');
