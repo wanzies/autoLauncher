@@ -19,7 +19,7 @@ if (!token) {
 if (process.env.ISPROD === 'true') {
   console.log('Running in PRODUCTION mode...');
 
-  const bot = new TelegramBot(token, { polling: true });
+  const bot = new TelegramBot('8629870606:AAGG1-xfp8_2c0ckla8hqPHQ9oQK3GHam6I', { polling: true });
 
   const ALLOWED_USER = parseInt(process.env.TELEGRAM_ALLOWED_USER_ID);
   const GH_TOKEN = process.env.GITHUB_TOKEN;
