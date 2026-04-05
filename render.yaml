@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: wanz-deploy-bot
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node bot.js
+    envVars:
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: TELEGRAM_ALLOWED_USER_ID
+        sync: false
+      - key: GITHUB_TOKEN
+        sync: false
+      - key: GITHUB_USERNAME
+        sync: false
+      - key: GITHUB_REPO
+        sync: false
+      - key: NETLIFY_TOKEN
+        sync: false
