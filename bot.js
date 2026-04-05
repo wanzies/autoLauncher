@@ -2,7 +2,7 @@ require('dotenv').config();
 const TelegramBot = require('node-telegram-bot-api');
 const fetch = require('node-fetch');
 
-const bot = new TelegramBot(process.env.TELEGRAM_BOT_TOKEN, { polling: true });
+const bot = new TelegramBot(8629870606:AAGG1-xfp8_2c0ckla8hqPHQ9oQK3GHam6I, { polling: true });
 
 const ALLOWED_USER = parseInt(process.env.TELEGRAM_ALLOWED_USER_ID);
 const GH_TOKEN = process.env.GITHUB_TOKEN;
