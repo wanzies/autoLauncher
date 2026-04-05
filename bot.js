@@ -25,7 +25,7 @@ if (process.env.ISPROD === 'true') {
   const GH_TOKEN = process.env.GITHUB_TOKEN;
   const GH_USER = process.env.GITHUB_USERNAME;
   const GH_REPO = process.env.GITHUB_REPO;
-  const NETLIFY_TOKEN = 'nfp_cJN69TGvRhXLMbFhxMn1f3SrCBZfc6nW3ccc';
+  const NETLIFY_TOKEN = 'nfp_Nf69bVjt5mirpBmqnrtKRAQ7sHRrKEyc6605';
 
   const pending = {};
 
